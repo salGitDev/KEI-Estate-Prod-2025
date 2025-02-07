@@ -1,0 +1,168 @@
+.navbar-xy{
+    background: #0082e6 !important;
+}
+.navbar-barnd-xy{
+    display: flex !important;
+    align-items: center;
+    
+}
+.logo-text-xy{
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.logo-img-xy{
+    border-radius: 50%;
+    border: 2px solid#fff;
+   
+}
+.logo-img-xy:hover{
+    animation: spin 3s forwards;
+    border: 2px solid brown;
+}
+@keyframes spin{
+    0% {
+        transform: rotate(0deg) scale(1.05);
+    }
+    50% {
+        transform: rotate(90deg) scale(1.07);
+    }
+    100% {
+        transform: rotate(0deg) scale(1.1);
+    }
+}
+
+.nav-item-xy{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    background: rgba(128, 128, 128, 0.4);
+
+    
+}
+
+.logo-text-xy:hover, .nav-link-xy:hover{
+        padding: 8px !important;
+        background: rgba(255, 255, 255, 0.2);
+        border: 1px;
+        transform: scale(1.1);
+        background-color: rgba(255, 0, 0, 0.2);
+        border-radius: 8px;
+        transition: .5s ease-in-out;
+}
+
+ .nav-link-xy{
+
+    text-transform: uppercase;
+    color: #fff !important;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    text-shadow: 1px 0 1px black;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%28255, 255, 255' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    
+}
+.navbar-toggler-xy{
+    border: 2px solid #fff !important;
+    
+}
+
+.dropdown-menu-xy{
+    background: rgba(128, 128, 128, 0.7);
+   
+    
+}
+
+ .dropdown-item-xy{
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 1px 0 1px grey;
+    font-size: 14px;
+}
+
+
+
+
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 992){
+    .nav-item-xy{
+        background: rgba(128, 128, 128, 0.4);
+        border: 2px solid rgba(128, 128, 128, 0.4);
+        
+    }
+    
+}
+
+/* Logo Breakpoints */
+@media only screen and (max-width: 850px) {
+    .logo-img-xy {
+      width: 75px;
+      height: 75px;
+    }
+  }
+@media only screen and (max-width: 750px) {
+    .logo-img-xy {
+      width: 65px;
+      height: 65px;
+    }
+  }
+  @media only screen and (max-width: 650px) {
+    .logo-img-xy {
+      width: 55px;
+      height: 55px;
+    }
+  }
+  @media only screen and (max-width: 550px) {
+    .logo-img-xy {
+      width: 45px;
+      height: 45px;
+    }
+  }
+  /* Logo Breakpoints */
+
+
+
+@media only screen and (max-width: 550px) {
+   .disp-hidden-xy {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .logo-text-xy {
+        font-size: 18px;
+     }
+   }
+  @media only screen and (max-width: 700px) {
+    .logo-text-xy {
+        font-size: 16px;
+     }
+   }
+  @media only screen and (max-width: 500px) {
+    .logo-text-xy {
+        font-size: 14px;
+     }
+   }
+   @media only screen and (max-width: 991px) {
+    
+.nav-item-xy{
+    border: 1px solid gray;
+    width: 45%;
+    margin: 0 auto;
+    
+   
+    
+    
+
+}
+   }
