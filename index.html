@@ -1,54 +1,522 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="icon" type="image/x-icon" href="kei-imgs/logo.png">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="icon" type="image/x-icon" href="kei-imgs/logo.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KEI-Estate Investment</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="navbar.css">
-</head>
-<body>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    /> -->
+    <!-- Use ONLY latest Bootstrap + Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
+   <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+  <!-- Your styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-xy">
-        <div class="container-fluid">
-           <div class="navbar-barnd-xy">
-            <a class="navbar-brand" href="#">
-                <img src="kei-imgs/logo.png" alt="Oop! Unable to show log now" width="80" height="80" class="d-inline-block align-text-top logo-img-xy">
-                
+      <div class="container-fluid">
+        <div class="navbar-barnd-xy">
+          <a class="navbar-brand" href="#">
+            <img
+              src="kei-imgs/logo.png"
+              alt="Oop! Unable to show logo now"
+              width="80"
+              height="80"
+              class="d-inline-block align-text-top logo-img-xy"
+            />
+          </a>
+          <div class="logo-text-xy">
+            KEI-ESTATE <span class="disp-hidden-xy">INVESTMENT</span>
+          </div>
+        </div>
+        <button
+          class="navbar-toggler navbar-toggler-xy"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse navbar-collapse-xy"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav navbar-nav-xy ms-auto mb-2 mb-lg-0">
+            <li class="nav-item nav-item-xy">
+              <a class="nav-link nav-link-xy" href="#section-page"
+                >Our Services</a
+              >
+            </li>
+            <li class="nav-item nav-item-xy">
+              <a class="nav-link nav-link-xy" href="#contactForm">Contact Us</a>
+            </li>
+            <li class="nav-item nav-item-xy">
+              <a class="nav-link nav-link-xy" href="#social-media-links"
+                >Social Media Links</a
+              >
+            </li>
+            <li class="nav-item nav-item-xy dropdown">
+              <a
+                class="nav-link nav-link-xy dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Check Out
               </a>
-              <div class="logo-text-xy">KEI-ESTATE <span class="disp-hidden-xy">INVESTMENT</span></div>
-           </div>
-          <button class="navbar-toggler navbar-toggler-xy" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse navbar-collapse-xy" id="navbarSupportedContent">
-            <ul class="navbar-nav navbar-nav-xy ms-auto mb-2 mb-lg-0">
-              <li class="nav-item nav-item-xy">
-                <a class="nav-link nav-link-xy" href="#">Our Services</a>
-              </li>
-              <li class="nav-item nav-item-xy">
-                <a class="nav-link nav-link-xy" href="#">Contact Us</a>
-              </li>
-              <li class="nav-item nav-item-xy">
-                <a class="nav-link nav-link-xy" href="#">Social Media Links</a>
-              </li>
-              <li class="nav-item nav-item-xy dropdown">
-                <a class="nav-link nav-link-xy dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Check Out
-                </a>
-                <ul class="dropdown-menu dropdown-menu-xy" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item dropdown-item-xy" href="#">Action</a></li>
-                  <li><a class="dropdown-item dropdown-item-xy" href="#">Another action</a></li>
+              <ul
+                class="dropdown-menu dropdown-menu-xy"
+                aria-labelledby="navbarDropdown"
+              >
+                <li>
+                  <a class="dropdown-item dropdown-item-xy" href="grid.html"
+                    >Visit Salone</a
+                  >
+                </li>
+                <!--<li><a class="dropdown-item dropdown-item-xy" href="#">Another action</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item dropdown-item-xy" href="#">Something else here</a></li>
-                </ul>
+                  <li><a class="dropdown-item dropdown-item-xy" href="#">Something else here</a></li>-->
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Welcome Page-->
+    <div class="welcome">
+      <h1 class="welcome-page">WELCOME TO KEI ESTATE INVESTMENT</h1>
+      <div class="welcome-container">
+        <p class="welcome-msg">
+          We welcome our clients from all over the world
+        </p>
+        <p class="welcome-msg">
+          We will have the pleasure of doing business with you
+        </p>
+        <p class="welcome-msg">Your trust in us means everything</p>
+        <p class="welcome-msg">Quality and excellence in service delivery</p>
+        <p class="welcome-msg">Let us build a great partnership together</p>
+      </div>
+    </div>
+    <!--Main Content-->
+    <!--<main class="main-content">-->
+
+    <div class="flex-container">
+      <!-- Paragraph Item -->
+      <p class="paragraph-item">
+        Discover Luxurious Living in Beautifully Designed,
+        <span class="spn-1">Affordable Homes</span><br /><br />
+        Experince the Lifestyle you have Always Dreame<br /><br />
+        Enjoy the Financial Comfort of Paradise Designs
+        <span class="spn-1"
+          >Enjoy the Financial comfort of Paradise Designs
+        </span>
+      </p>
+
+      <!-- Carousel Container -->
+      <div
+        id="carouselExample"
+        class="carousel slide carousel-container carousel-ctrl"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="kei-imgs/kei-p1.jpg" alt="Image 1" />
+            <div class="carousel-caption">
+              <p class="img-desc">
+                1<sup>St</sup> View Image<br />
+                Side View Bungalow
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="kei-imgs/kei-p2.jpg" alt="Image 2" />
+            <div class="carousel-caption">
+              <p class="img-desc">
+                2<sup>Nd</sup> View Image<br />
+                Front View Design
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="kei-imgs/kei-p3.jpg" alt="Image 3" />
+            <div class="carousel-caption">
+              <p class="img-desc">
+                3<sup>Rd</sup> View Image<br />
+                Bungalow in a Greeny Environs
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="kei-imgs/kei-p4.jpg" alt="Image 4" />
+            <div class="carousel-caption">
+              <p class="img-desc">
+                4<sup>Th</sup> Image<br />
+                Interior Decors
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Navigation Buttons -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon bg-col"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bg-col"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!--Section Page-->
+    <section class="section-page" id="section-page">
+      <h1 class="explore-services">Explore Our Services</h1>
+      <p class="page-services">
+        Find the List of Services Available and Contact Us for the One(s) You
+        Will Like to Choose From<br /><br />
+      </p>
+
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="kei-imgs/kei-p9.PNG"
+              class="card-img-top h-60 img-fluid img-animate"
+              alt="Building & Buying Image Not Available"
+            />
+            <div class="card-body">
+              <div class="card-title-center">
+                <h5 class="card-title">Buliding and Buying a New Home</h5>
+              </div>
+              <p class="card-text">
+                If you would like to build a new home with ease kindly contact
+                us for this service
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="check-product"
+                ><a href="#contactForm" class="visit-site"
+                  >Contact Us for this Product</a
+                ></small
+              >
+              <small class="text-muted"
+                >Post Updated
+                <span
+                  class="time-update"
+                  data-time="2025-04-06T03:23:00"
+                ></span>
+                Ago</small
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="kei-imgs/kei-p2.jpg"
+              class="card-img-top h-60 img-fluid img-animate"
+              alt="Quick Rentals and Lease Property Image Not Available"
+            />
+            <div class="card-body">
+              <div class="card-title-center">
+                <h5 class="card-title">Quick Rentals and Lease Property</h5>
+              </div>
+              <p class="card-text">
+                If you are looking a very nice place to lease or stay for the
+                main time you have got the right place please kindly contanct us
+                for these services
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="check-product"
+                ><a href="#contactForm" class="visit-site"
+                  >Contact Us for this Product</a
+                ></small
+              >
+              <small class="text-muted"
+                >Post Updated
+                <span
+                  class="time-update"
+                  data-time="2025-04-06T03:23:00"
+                ></span>
+                Ago</small
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="kei-imgs/kei-p6.jpg"
+              class="card-img-top h-60 img-fluid img-animate"
+              alt="Vacation Image Not Available"
+            />
+            <div class="card-body">
+              <div class="card-title-center">
+                <h5 class="card-title">Looking for Vacation</h5>
+              </div>
+              <p class="card-text">
+                If you will like to explore difference places in Sierra Leone
+                contact now
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="check-product"
+                ><a href="#contactForm" class="visit-site"
+                  >Contact Us for this Product</a
+                ></small
+              >
+              <small class="text-muted"
+                >Post Updated
+                <span
+                  class="time-update"
+                  data-time="2025-04-06T03:23:00"
+                ></span>
+                Ago</small
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="kei-imgs/kei-p10.jpg"
+              class="card-img-top h-60 img-fluid img-animate"
+              alt="Property Sales Image Not Available"
+            />
+            <div class="card-body">
+              <div class="card-title-center">
+                <h5 class="card-title">Property for Sale</h5>
+              </div>
+              <p class="card-text">
+                We have credible potential customers who are will to purchase
+                your personal property on any location across the country
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="check-product"
+                ><a href="#contactForm" class="visit-site"
+                  >Contact Us for this Product</a
+                ></small
+              >
+              <small class="text-muted"
+                >Post Updated
+                <span
+                  class="time-update"
+                  data-time="2025-04-06T03:23:00"
+                ></span>
+                Ago</small
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="kei-imgs/kei-p11.jpg"
+              class="card-img-top h-60 img-fluid img-animate"
+              alt="Photography Image Not Available"
+            />
+            <div class="card-body">
+              <div class="card-title-center">
+                <h5 class="card-title">Photography</h5>
+              </div>
+              <p class="card-text">
+                We will help you get the latest update of beautiful views in
+                places you want to visit
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="check-product"
+                ><a href="#contactForm" class="visit-site"
+                  >Contact Us for this Product</a
+                ></small
+              >
+              <small class="text-muted"
+                >Post Updated
+                <span
+                  class="time-update"
+                  data-time="2025-04-06T03:23:00"
+                ></span>
+                Ago</small
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Contact US-->
+    <div class="contact-info">
+      <h4 class="contact-details">
+        Leave Us a Message and We Will Give You Feedback
+      </h4>
+    </div>
+    <div class="contact-form-container">
+      <form
+        id="contactForm"
+        class="contact-form"
+        action="process.php"
+        method="POST"
+        target="_blank"
+      >
+        <div class="flow-control">
+          <label class="input-detail" for="name">Enter Your Name: </label
+          ><input
+            type="text"
+            id="name"
+            class="details"
+            name="name"
+            placeholder="Enter Your Full Name"
+            autocomplete="name"
+          />
+        </div>
+        <div id="errorName"><small id="nameError" class="error"></small></div>
+        <div class="flow-control">
+          <label class="input-detail" for="email">Enter Your Email: </label
+          ><input
+            type="email"
+            id="email"
+            class="details"
+            name="email"
+            placeholder="Enter Your Email Address"
+            autocomplete="email"
+          />
+        </div>
+        <div id="errorEmail"><small id="emailError" class="error"></small></div>
+        <div class="flow-control">
+          <label class="input-detail" for="message">Send Us a Message: </label
+          ><textarea
+            id="message"
+            class="details"
+            name="message"
+            placeholder="Write Your Message Here"
+          ></textarea>
+        </div>
+        <div id="errorMsg"><small id="messageError" class="error"></small></div>
+        <input type="text" name="company" style="display:none;" tabindex="-1" autocomplete="off" />
+        <div class="submit-btn">
+          <button type="submit" class="submit" id="submit">Send</button>
+        </div>
+      </form>
+    </div>
+    <!--Footer Code Here-->
+    <footer class="mt-auto">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <h5 class="h5-footer">About Us</h5>
+            <p class="p-footer">
+              KEI Estate Investment is a reliable estate agency aim to bring
+              quality property purchases and sales.
+            </p>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5 class="h5-footer">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="#"
+                  class="text-decoration-none text-primary link-footer"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-decoration-none text-primary link-footer"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-decoration-none text-primary link-footer"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5 class="h5-footer">Follow Us</h5>
+            <ul class="list-inline social-icons" id="social-media-links">
+              <li class="list-inline-item">
+                <a class="" id="facebookId" href="#" target="_blank" class="text-white">
+                  <i class="bi bi-facebook"></i>
+                </a>
+                <span class="content-after"></span>
+              </li>
+              <li class="list-inline-item">
+                <a id="whatsappId" href="#" target="_blank" class="text-white">
+                  <i class="bi bi-whatsapp"></i>
+                </a>
+                <span class="content-after"></span>
+              </li>
+              <li class="list-inline-item">
+                <a id="linkedinId" href="#" target="_blank" class="text-white">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+                <span class="content-after"></span>
               </li>
             </ul>
           </div>
         </div>
-      </nav>
-</body>
+        <hr class="mb-4" />
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p class="p-footer">
+              KEI Estate Investment &copy; 2023. All rights reserved. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="welcome.js"></script>
+    <script src="form.js"></script>
+  </body>
 </html>

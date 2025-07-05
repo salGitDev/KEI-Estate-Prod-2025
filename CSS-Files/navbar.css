@@ -1,10 +1,15 @@
 .navbar-xy{
     background: #0082e6 !important;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
 }
 .navbar-barnd-xy{
     display: flex !important;
     align-items: center;
-    
+
 }
 .logo-text-xy{
     color: #fff;

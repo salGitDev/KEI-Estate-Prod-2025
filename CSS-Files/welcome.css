@@ -1,0 +1,56 @@
+.welcome {
+    width: 95%;
+    max-width: 700px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(0, 185, 142, 0.1);
+    font-family: Arial, sans-serif;
+    border: 3px solid rgba(0, 185, 142, 0.1);
+    text-align: center;
+}
+
+.welcome-page {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    color: #0082e6;
+    background: rgb(0, 0, 0, 0.8);
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.welcome-msg {
+    display: none; /* Hide paragraphs initially */
+    font-size: 1.2rem;
+    color: #666565;
+    background: rgba(128, 128, 128, 0.1);
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 1px ;
+    font-weight: 700;
+    height: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    font-family: "Bebas Neue", sans-serif;
+    padding: 12px;
+
+}
+
+.welcome-container:hover {
+    animation-play-state: paused; /* Pause animation on hover */
+}
+
+@media (max-width: 700px){
+    .welcome-page{
+        font-size: 1.2rem;
+        font-weight: 800;
+       
+    }
+    .welcome-msg {
+        font-size: 1.1rem;
+        font-weight: 700;
+
+    }
+    
+}
+
+
